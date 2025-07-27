@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FinovateWorks – Olufemi Olamoyegun</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2em;
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #1d3557;
+    }
+    ul {
+      margin-top: 1em;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .logo {
+      width: 120px;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="FinovateWorks Logo" class="logo" />
+  <h1>👋 Welcome to FinovateWorks</h1>
+  <p>This is the personal finance and AI innovation portfolio of <strong>Olufemi Olamoyegun, FMVA®, FIAMFIN</strong>.</p>
+  <p>Explore tools, projects, and insights at the intersection of data, finance, automation, and AI.</p>
+
+  <ul>
+    <li><a href="./certifications.html">🎓 View Certifications</a></li>
+    <li><a href="./projects.html">🧰 Tools & Projects</a></li>
+    <li><a href="./blog.html">📝 Blog & Finance Insights</a></li>
+    <li><a href="https://github.com/olufemiolamoyegun">💻 GitHub Profile</a></li>
+    <li><a href="mailto:femiconsult@gmail.com">📧 Contact Me</a></li>
+  </ul>
+
+  <p><em>Built with 💡 using GitHub Pages and Jekyll.</em></p>
+</body>
+</html>
