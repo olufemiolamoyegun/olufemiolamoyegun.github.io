@@ -1,0 +1,14 @@
+title: FinovateWorks
+theme: jekyll-theme-minimal
+logo: /assets/logo.png
+navigation:
+  - title: Home
+    url: /
+  - title: Certifications
+    url: /certifications
+  - title: Projects
+    url: /projects
+  - title: Blog
+    url: /posts
+  - title: Resume
+    url: /assets/olufemi_resume.pdf
