@@ -1,6 +1,7 @@
-title: FinovateWorks
+title: "Olufemi Olamoyegun | Data Analyst Portfolio"
 theme: jekyll-theme-minimal
 logo: /assets/logo.png
+description: "Professional portfolio for Data Analyst and Data Analytics Instructor roles."
 navigation:
   - title: Home
     url: /
@@ -12,3 +13,4 @@ navigation:
     url: /posts
   - title: Resume
     url: /assets/olufemi_resume.pdf
+
