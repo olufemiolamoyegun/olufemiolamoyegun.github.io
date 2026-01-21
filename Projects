@@ -31,8 +31,8 @@
             <a href="https://github.com/olufemiolamoyegun/Employees-Demographics-and-Salary-Analysis-using-SQL" target="_blank" class="project-btn">View Project</a>
         </div>
 
-        <div class="project-card">
-    <img src="Spotify.png" alt="Spotify EDA Analysis" class="project-img">
+<div class="project-card">
+    <img src="assets/Spotify.png" alt="Spotify EDA Analysis" class="project-img">
     <h3>Spotify Streaming Data Analysis</h3>
     <p>Python & SQL exploratory analysis revealing patterns and trends in streaming data.</p>
     <a href="https://github.com/olufemiolamoyegun/Spotify-Tracks-Analysis-Using-Python" target="_blank" class="project-btn">View Project</a>
