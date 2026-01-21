@@ -3,7 +3,6 @@
 Turning data into actionable insights through dashboards, analytics, and data storytelling.  
 Lagos, Nigeria — Data Analytics | Business Intelligence | Python | SQL | Power BI | Microsoft Fabric
 
-📄 [Download Resume](resume.pdf)
 
 🚀 **Featured Projects**
 
