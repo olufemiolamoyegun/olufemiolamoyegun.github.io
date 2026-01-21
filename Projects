@@ -1,41 +1,49 @@
+<!-- Projects Section -->
 <section id="projects" class="projects-section">
-  <h2>Featured Projects</h2>
-  <div class="project-grid">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
 
-    <div class="project-card">
-      <img src="assets/POWER BI PWC SMART NARRATIVE.png" alt="">
-      <h3>Call Center Analytics (Power BI)</h3>
-      <p>KPI tracking, customer metrics, and operational insights.</p>
-      <a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" target="_blank">View Project</a>
+        <div class="project-card">
+            <img src="assets/POWER_BI_PWC_SMART_NARRATIVE.png" alt="Call Center Analytics Dashboard" class="project-img">
+            <h3>Customer Support Performance & Call Center Analytics (Power BI)</h3>
+            <p>End-to-end analytics for call center operations: KPI tracking, customer service metrics, and operational insights.</p>
+            <a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" target="_blank" class="project-btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/R CWW TECH BAR CHART OF STATE AND CATEGORY BY YEARS.png" alt="Business Performance Analytics" class="project-img">
+            <h3>Business Performance Analytics Project (CWW Tech)</h3>
+            <p>Data cleaning, KPI design, and dashboards for business decision support.</p>
+            <a href="https://github.com/olufemiolamoyegun/CWW-TECH-INDIVIDUAL-PROJECT" target="_blank" class="project-btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/EXCEL_United_States_Addidas_Dashboard.png" alt="Sales & Revenue Analytics Excel" class="project-img">
+            <h3>Sales & Revenue Analytics Using Excel (Adidas)</h3>
+            <p>Trend analysis, product and regional insights using Excel dashboards and formulas.</p>
+            <a href="https://github.com/olufemiolamoyegun/United-States-Addidas-Sales-Project-using-Excel" target="_blank" class="project-btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/SQL Employees Demographics.png" alt="HR Analytics SQL" class="project-img">
+            <h3>HR Analytics & Salary Analysis Using SQL</h3>
+            <p>Workforce insights and salary distribution analysis using SQL for business decision-making.</p>
+            <a href="https://github.com/olufemiolamoyegun/Employees-Demographics-and-Salary-Analysis-using-SQL" target="_blank" class="project-btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/Spotify_EDA.png" alt="Spotify EDA Analysis" class="project-img">
+            <h3>Exploratory Data Analysis of Spotify Streaming Data</h3>
+            <p>Python & SQL exploratory analysis revealing patterns, trends, and actionable insights from streaming data.</p>
+            <a href="https://github.com/olufemiolamoyegun/Spotify-Tracks-Analysis-Using-Python" target="_blank" class="project-btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/Tableau AirBNB Project.png" alt="Airbnb Tableau Project" class="project-img">
+            <h3>Airbnb Tableau Project</h3>
+            <p>Tableau dashboard showing listing trends, pricing analysis, and occupancy insights.</p>
+            <a href="https://github.com/olufemiolamoyegun/AIRBNB-TABLEAU-PROJECT" target="_blank" class="project-btn">View Project</a>
+        </div>
+
     </div>
-
-    <div class="project-card">
-      <img src="assets/R CWW TECH BAR CHART OF STATE AND CATEGORY BY YEARS.png" alt="">
-      <h3>Business Performance Analytics</h3>
-      <p>Data cleaning, KPI design, and dashboards for decision support.</p>
-      <a href="https://github.com/olufemiolamoyegun/CWW-TECH-INDIVIDUAL-PROJECT" target="_blank">View Project</a>
-    </div>
-
-    <div class="project-card">
-      <img src="assets/EXCEL United States Addidas Dashboard.png" alt="">
-      <h3>Sales & Revenue Analytics (Excel)</h3>
-      <p>Trend analysis, regional insights, and dashboards.</p>
-      <a href="https://github.com/olufemiolamoyegun/United-States-Addidas-Sales-Project-using-Excel" target="_blank">View Project</a>
-    </div>
-
-    <div class="project-card">
-      <img src="assets/SQL Employees Demographics.png" alt="">
-      <h3>HR Analytics (SQL)</h3>
-      <p>Salary and workforce insights for HR decisions.</p>
-      <a href="https://github.com/olufemiolamoyegun/Employees-Demographics-and-Salary-Analysis-using-SQL" target="_blank">View Project</a>
-    </div>
-
-    <div class="project-card">
-      <img src="assets/Spotify_EDA.png" alt="">
-      <h3>Spotify EDA (Python)</h3>
-      <p>Trend discovery and pattern analysis.</p>
-      <a href="https://github.com/olufemiolamoyegun/Spotify-Tracks-Analysis-Using-Python" target="_blank">View Project</a>
-    </div>
-
-  </div>
 </section>
