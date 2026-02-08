@@ -44,15 +44,6 @@ Enterprise-style workforce analytics focused on attrition, engagement, and compe
 
 ---
 
-## 📫 Connect With Me
-- GitHub: https://github.com/olufemiolamoyegun
-- LinkedIn: https://www.linkedin.com/in/olufemi-olamoyegun
-- Medium: https://tr.ee/VYsIakRdQq
-- YouTube: https://youtube.com/@olufemibuilds
-
-✨ *Turning data into decisions.*
-
-
 📊 **Skills & Tools**
 
 - **Data Analysis & BI:** Power BI, Tableau, Excel Advanced, Power Query, DAX  
