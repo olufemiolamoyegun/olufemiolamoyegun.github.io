@@ -1,28 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Basic Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO -->
-    <title>Olufemi Olamoyegun | Data Analyst | Power BI • Python • SQL</title>
-    <meta name="description" content="Olufemi Olamoyegun is a Data Analyst specializing in Power BI, Python, SQL, and Microsoft Fabric. Portfolio featuring call centre analytics, growth analytics & A/B testing, Spotify streaming analytics, and HR workforce intelligence.">
-    <meta name="keywords" content="Data Analyst, Power BI, Python, SQL, Microsoft Fabric, Business Intelligence, Analytics Portfolio, HR Analytics, A/B Testing">
-    <meta name="author" content="Olufemi Olamoyegun">
-
-    <!-- Open Graph (LinkedIn / WhatsApp Preview) -->
-    <meta property="og:title" content="Olufemi Olamoyegun | Data Analyst Portfolio">
-    <meta property="og:description" content="Power BI dashboards, Python analytics, SQL workforce intelligence, growth analytics, and A/B testing projects.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://olufemiolamoyegun.github.io/">
-    <meta property="og:image" content="https://olufemiolamoyegun.github.io/portfolio-preview.png">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Olufemi Olamoyegun | Data Analyst Portfolio">
-    <meta name="twitter:description" content="Data analytics portfolio with Power BI, Python, SQL, Microsoft Fabric, and business intelligence projects.">
-    <meta name="twitter:image" content="https://olufemiolamoyegun.github.io/portfolio-preview.png">
+    <title>Olufemi Olamoyegun | Data Analyst Portfolio</title>
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -30,7 +11,6 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Internal Styles -->
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -39,9 +19,11 @@
             background-color: #f9f9f9;
             color: #333;
         }
+
         a { text-decoration: none; color: #0078d4; }
         a:hover { text-decoration: underline; }
 
+        /* Back to top button */
         #backToTop {
             display: none;
             position: fixed;
@@ -60,6 +42,7 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
         }
 
+        /* Hero Section */
         .hero-section {
             text-align: center;
             padding: 80px 20px;
@@ -84,6 +67,7 @@
         section { padding: 60px 20px; max-width: 1100px; margin: auto; }
         h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; }
 
+        /* Skills */
         .skills-section ul {
             display: flex;
             flex-wrap: wrap;
@@ -99,6 +83,7 @@
             border-radius: 5px;
         }
 
+        /* Projects Grid */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -113,6 +98,36 @@
         }
         .project-card:hover { transform: translateY(-5px); }
 
+        /* Image + Overlay */
+        .project-image-wrapper {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+        .project-image-wrapper img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .project-image-wrapper:hover img { transform: scale(1.05); }
+
+        .project-image-wrapper .overlay {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-color: rgba(0, 120, 212, 0.8);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            padding: 15px;
+        }
+        .project-image-wrapper:hover .overlay { opacity: 1; }
+
         .project-btn {
             display: inline-block;
             margin-top: 10px;
@@ -124,6 +139,7 @@
         }
         .project-btn:hover { background: #005a9e; }
 
+        /* Contact Icons */
         .contact-icons {
             display: flex;
             justify-content: center;
@@ -137,7 +153,6 @@
         }
     </style>
 </head>
-
 <body>
 
 <button onclick="topFunction()" id="backToTop" title="Go to top">
@@ -182,49 +197,48 @@
     <h2>Featured Projects</h2>
     <div class="projects-grid">
 
+        <!-- PwC Call Centre -->
         <div class="project-card">
-            <img src="pwc-call-centre.png" alt="PwC Call Centre Analytics Dashboard" class="project-img">
+            <div class="project-image-wrapper">
+                <img src="PWC DASHBOARD.png" alt="PwC Call Centre Analytics">
+                <div class="overlay">Operational performance analysis covering CSAT, ASA, AHT, and agent productivity.</div>
+            </div>
             <h3>📞 PwC Call Centre Analytics (Power BI)</h3>
-            <p>Operational performance analysis covering CSAT, ASA, AHT, and agent productivity.</p>
-            <a class="project-btn" target="_blank"
-               href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI">
-               View Project
-            </a>
+            <a class="project-btn" target="_blank" href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI">View Project</a>
         </div>
 
+        <!-- Growth Analytics A/B Testing -->
         <div class="project-card">
-            <img src="growth-ab-testing.png" alt="Growth Analytics A/B Testing Python" class="project-img">
+            <div class="project-image-wrapper">
+                <img src="A:B TESTING ANALYSIS.png" alt="Growth Analytics & A/B Testing">
+                <div class="overlay">End-to-end A/B testing with statistical validation and business recommendations.</div>
+            </div>
             <h3>📈 Growth Analytics & A/B Testing (Python)</h3>
-            <p>End-to-end A/B testing with statistical validation and business recommendations.</p>
-            <a class="project-btn" target="_blank"
-               href="https://github.com/olufemiolamoyegun/Growth-Analytics-A-B-Testing">
-               View Project
-            </a>
+            <a class="project-btn" target="_blank" href="https://github.com/olufemiolamoyegun/Growth-Analytics-A-B-Testing">View Project</a>
         </div>
 
+        <!-- Spotify Streaming -->
         <div class="project-card">
-            <img src="spotify-analytics.png" alt="Spotify Streaming Analytics Python" class="project-img">
+            <div class="project-image-wrapper">
+                <img src="Python Spotify.png" alt="Spotify Streaming Analytics">
+                <div class="overlay">Exploratory data analysis uncovering engagement drivers and popularity trends.</div>
+            </div>
             <h3>🎵 Spotify Streaming Analytics (Python)</h3>
-            <p>Exploratory data analysis uncovering engagement drivers and popularity trends.</p>
-            <a class="project-btn" target="_blank"
-               href="https://github.com/olufemiolamoyegun/Spotify-Streaming-Analytics-Python">
-               View Project
-            </a>
+            <a class="project-btn" target="_blank" href="https://github.com/olufemiolamoyegun/-Spotify-Streaming-Analytics-Python-">View Project</a>
         </div>
 
+        <!-- HR Analytics -->
         <div class="project-card">
-            <img src="hr-analytics.png" alt="HR Analytics Workforce Intelligence" class="project-img">
+            <div class="project-image-wrapper">
+                <img src="HR ANALYTICS AND WORKFORCE INTELLIGENCE.png" alt="HR Analytics & Workforce Intelligence">
+                <div class="overlay">Enterprise-style workforce analytics focused on attrition, engagement, and compensation.</div>
+            </div>
             <h3>👔 HR Analytics & Workforce Intelligence</h3>
-            <p>Enterprise-style workforce analytics focused on attrition, engagement, and compensation.</p>
-            <a class="project-btn" target="_blank"
-               href="https://github.com/olufemiolamoyegun/HR-Analytics-Workforce-Intelligence">
-               View Project
-            </a>
+            <a class="project-btn" target="_blank" href="https://github.com/olufemiolamoyegun/-HR-Analytics-Workforce-Intelligence">View Project</a>
         </div>
 
     </div>
 </section>
-
 
 <section id="contact">
     <h2>Get in Touch</h2>
@@ -254,3 +268,4 @@
 
 </body>
 </html>
+
