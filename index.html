@@ -1,39 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olufemi Olamoyegun | Data Analyst Portfolio</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- External CSS (optional) -->
     <link rel="stylesheet" href="style.css">
+
     <style>
-
-        <button onclick="topFunction()" id="backToTop" title="Go to top" style="display: none; position: fixed; bottom: 20px; right: 30px; z-index: 99; border: none; outline: none; background-color: #007bff; color: white; cursor: pointer; padding: 15px; border-radius: 50%; width: 50px; height: 50px; font-size: 18px; transition: background-color 0.3s, transform 0.3s; box-shadow: 0px 4px 10px rgba(0,0,0,0.3);">
-    <i class="fas fa-arrow-up"></i>
-</button>
-
-<script>
-    // Get the button
-    let mybutton = document.getElementById("backToTop");
-
-    // When the user scrolls down 300px from the top, show the button
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
-    }
-
-    // When the user clicks, scroll to the top with a smooth effect
-    function topFunction() {
-        window.scrollTo({top: 0, behavior: 'smooth'});
-    }
-</script>
-        
-    
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
@@ -44,15 +22,36 @@
         a { text-decoration: none; color: #0078d4; }
         a:hover { text-decoration: underline; }
 
+        /* Back to top button */
+        #backToTop {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            border: none;
+            background-color: #0078d4;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 18px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        /* Hero */
         .hero-section {
             text-align: center;
             padding: 80px 20px;
             background-color: #0078d4;
             color: #fff;
         }
-        .hero-section h1 { margin: 0; font-size: 2.8rem; }
+        .hero-section h1 { font-size: 2.8rem; margin: 0; }
         .hero-section h2 { margin: 10px 0; font-weight: 400; }
-        .hero-section p { max-width: 600px; margin: 20px auto; font-size: 1.1rem; }
+        .hero-section p { max-width: 650px; margin: 20px auto; font-size: 1.1rem; }
+
         .btn {
             display: inline-block;
             margin: 10px 5px;
@@ -61,42 +60,46 @@
             color: #0078d4;
             border-radius: 5px;
             font-weight: bold;
-            transition: 0.3s;
         }
         .btn:hover { background-color: #e0e0e0; }
 
-        section { padding: 60px 20px; max-width: 1100px; margin: 0 auto; }
+        section { padding: 60px 20px; max-width: 1100px; margin: auto; }
         h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; }
 
-        ul { list-style: none; padding: 0; }
-        li { margin-bottom: 10px; }
+        /* Skills */
+        .skills-section ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+        .skills-section li {
+            background: #0078d4;
+            color: #fff;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+        }
 
-        /* Skills Section */
-        .skills-section ul { display: flex; flex-wrap: wrap; justify-content: center; }
-        .skills-section li { background: #0078d4; color: #fff; padding: 10px 15px; margin: 5px; border-radius: 5px; }
-
-        /* Projects Grid */
+        /* Projects */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 25px;
-            justify-items: center;
         }
         .project-card {
-            background-color: #fff;
+            background: #fff;
             border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             padding: 20px;
-            transition: transform 0.3s, box-shadow 0.3s;
-            width: 100%;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
         }
-        .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 15px rgba(0,0,0,0.15);
-        }
+        .project-card:hover { transform: translateY(-5px); }
+
         .project-img {
             width: 100%;
-            height: 200px; /* Fixed height for uniformity */
+            height: 200px;
             object-fit: cover;
             border-radius: 5px;
             margin-bottom: 15px;
@@ -105,67 +108,64 @@
             display: inline-block;
             margin-top: 10px;
             padding: 8px 15px;
-            background-color: #0078d4;
+            background: #0078d4;
             color: #fff;
             border-radius: 5px;
             font-weight: bold;
         }
-        .project-btn:hover { background-color: #005a9e; }
+        .project-btn:hover { background: #005a9e; }
 
-        /* Contact Section */
-        .contact-section ul { display: flex; flex-wrap: wrap; justify-content: center; }
-        .contact-section li { margin: 0 10px; }
+        /* Contact */
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 1.8rem;
+        }
 
-        @media(max-width: 600px){
+        @media(max-width: 600px) {
             .hero-section h1 { font-size: 2rem; }
-            .hero-section h2 { font-size: 1.4rem; }
+            .hero-section h2 { font-size: 1.3rem; }
         }
     </style>
 </head>
 <body>
 
-<section id="hero" class="hero-section">
+<button onclick="topFunction()" id="backToTop" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<section class="hero-section">
     <h1>Olufemi Olamoyegun</h1>
-    <h2>Data Analyst | Power BI, SQL, Python, Excel Analytics</h2>
-    <p>Turning raw business, operational, and customer data into actionable insights through analytics, dashboards, and data storytelling.</p>
+    <h2>Data Analyst | Power BI, SQL, Python, Excel</h2>
+    <p>Turning raw business and operational data into actionable insights, dashboards, and data stories.</p>
     <a href="#projects" class="btn">View Projects</a>
     <a href="#contact" class="btn">Contact Me</a>
 </section>
 
-<section id="about" class="about-section">
+<section id="about">
     <h2>About Me</h2>
     <p>
-        I am a <strong>Data Analyst & Analytics Educator</strong> dedicated to turning complex datasets into clear, actionable business stories. With a background in 
-        <strong>Power BI, SQL, Python, and Microsoft Fabric</strong>, I bridge the gap between raw data and strategic decision-making.
+        I am a <strong>Data Analyst & Analytics Educator</strong> focused on transforming complex datasets into
+        clear, business‑ready insights using <strong>Power BI, SQL, Python, and Microsoft Fabric</strong>.
     </p>
-    
     <p>
-        Beyond my technical projects, I am deeply committed to the data community. I actively contribute to the <strong>Microsoft Fabric Community</strong> and 
-        <strong>Microsoft Tech Community</strong>.
+        I actively contribute to the <strong>Microsoft Fabric Community</strong> and
+        <strong>Microsoft Tech Community</strong>, helping others learn analytics and data storytelling.
     </p>
-
-    <div style="background: #eef7ff; padding: 20px; border-radius: 8px; border-left: 5px solid #0078d4; margin-top: 20px;">
-        <h3 style="margin-top: 0;">Community & Mentorship</h3>
-        <ul>
-            <li><strong>Contributor:</strong> Providing solutions and insights within the <a href="https://community.fabric.microsoft.com/t5/user/viewprofilepage/user-id/843006" target="_blank">Microsoft Fabric Community</a>.</li>
-            <li><strong>Technical Writing:</strong> Documenting walkthroughs on the <a href="https://techcommunity.microsoft.com/users/olufemio/1895696" target="_blank">Microsoft Tech Community</a>.</li>
-            <li><strong>Mentorship:</strong> Helping aspiring analysts master data storytelling and KPI design.</li>
-        </ul>
-    </div>
 </section>
 
 <section id="skills" class="skills-section">
     <h2>Skills</h2>
     <ul>
         <li>Power BI</li>
-        <li>Tableau</li>
         <li>SQL</li>
         <li>Python</li>
         <li>Microsoft Fabric</li>
         <li>Excel Analytics</li>
-        <li>ETL & Dataflows</li>
-        <li>Dashboards & KPI Design</li>
-        <li>Data Cleaning & Transformation</li>
+        <li>ETL & Data Modeling</li>
+        <li>KPI & Dashboard Design</li>
+        <li>Data Storytelling</li>
     </ul>
 </section>
 
@@ -174,67 +174,57 @@
     <div class="projects-grid">
 
         <div class="project-card">
-            <img src="POWER_BI_PWC_SMART_NARRATIVE" alt="Call Center Analytics" class="project-img">
-            <h3>Call Center Analytics (Power BI)</h3>
-            <p>End-to-end analytics for call center operations: KPI tracking and operational insights.</p>
-            <a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" target="_blank" class="project-btn">View Project</a>
+            <h3>📞 PwC Call Centre Analytics (Power BI)</h3>
+            <p>Operational performance analysis covering CSAT, ASA, AHT, and agent productivity.</p>
+            <a class="project-btn" target="_blank" href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI">View Project</a>
         </div>
 
         <div class="project-card">
-            <img src="R CWW TECH BAR CHART OF STATE AND CATEGORY BY YEARS.png" alt="Business Performance" class="project-img">
-            <h3>Business Performance Analytics (CWW Tech)</h3>
-            <p>Data cleaning, KPI design, and dashboards for business decision support.</p>
-            <a href="https://github.com/olufemiolamoyegun/CWW-TECH-INDIVIDUAL-PROJECT" target="_blank" class="project-btn">View Project</a>
+            <h3>📈 Growth Analytics & A/B Testing (Python)</h3>
+            <p>End‑to‑end A/B testing with statistical validation and business recommendations.</p>
+            <a class="project-btn" target="_blank" href="https://github.com/olufemiolamoyegun/Growth-Analytics-A-B-Testing">View Project</a>
         </div>
 
         <div class="project-card">
-            <img src="EXCEL_United_States_Addidas_Dashboard." alt="Adidas Sales Analytics" class="project-img">
-            <h3>Sales & Revenue Analytics (Adidas)</h3>
-            <p>Trend analysis and regional insights using Excel dashboards.</p>
-            <a href="https://github.com/olufemiolamoyegun/United-States-Addidas-Sales-Project-using-Excel" target="_blank" class="project-btn">View Project</a>
+            <h3>🎵 Spotify Streaming Analytics (Python)</h3>
+            <p>Exploratory data analysis uncovering engagement drivers and popularity trends.</p>
+            <a class="project-btn" target="_blank" href="https://github.com/olufemiolamoyegun/Spotify-Streaming-Analytics-Python">View Project</a>
         </div>
 
         <div class="project-card">
-            <img src="SQL Employees Demographics.png" alt="HR Analytics SQL" class="project-img">
-            <h3>HR Analytics & Salary Analysis (SQL)</h3>
-            <p>Workforce insights and salary distribution analysis using SQL.</p>
-            <a href="https://github.com/olufemiolamoyegun/Employees-Demographics-and-Salary-Analysis-using-SQL" target="_blank" class="project-btn">View Project</a>
-        </div>
-
-   <div class="project-card">
-    <img src="spotify_heatmap.png?v=1" alt="Spotify EDA Analysis" class="project-img">
-    <h3>Exploratory Data Analysis of Spotify Streaming Data</h3>
-    <p>Python & SQL exploratory analysis revealing patterns, trends, and actionable insights from streaming data.</p>
-    <a href="https://github.com/olufemiolamoyegun/Spotify-Tracks-Analysis-Using-Python" target="_blank" class="project-btn">View Project</a>
-</div>
-
-        <div class="project-card">
-            <img src="Tableau AirBNB Project.png" alt="Airbnb Tableau" class="project-img">
-            <h3>Airbnb Dashboard (Tableau)</h3>
-            <p>Tableau dashboard showing listing trends and pricing analysis.</p>
-            <a href="https://github.com/olufemiolamoyegun/AIRBNB-TABLEAU-PROJECT" target="_blank" class="project-btn">View Project</a>
+            <h3>👔 HR Analytics & Workforce Intelligence</h3>
+            <p>Enterprise‑style workforce analytics focused on attrition, engagement, and compensation.</p>
+            <a class="project-btn" target="_blank" href="https://github.com/olufemiolamoyegun/HR-Analytics-Workforce-Intelligence">View Project</a>
         </div>
 
     </div>
 </section>
 
-<section id="contact" class="contact-section">
+<section id="contact">
     <h2>Get in Touch</h2>
     <div class="contact-icons">
-        <a href="mailto:femi_olamoyegun@outlook.com" title="Email Me">
-            <i class="fas fa-envelope"></i>
-        </a>
-        
-        <a href="https://www.linkedin.com/in/olufemi-olamoyegun" target="_blank" title="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        
-        <a href="https://x.com/olamfe" target="_blank" title="X (Twitter)">
-            <i class="fab fa-x-twitter"></i>
-        </a>
-        
-        <a href="https://github.com/olufemiolamoyegun" target="_blank" title="GitHub">
-            <i class="fab fa-github"></i>
-        </a>
+        <a href="mailto:femi_olamoyegun@outlook.com" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/olufemi-olamoyegun" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/olamfe" target="_blank" title="X"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://github.com/olufemiolamoyegun" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
     </div>
 </section>
+
+<script>
+    const mybutton = document.getElementById('backToTop');
+
+    window.onscroll = function () {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            mybutton.style.display = 'block';
+        } else {
+            mybutton.style.display = 'none';
+        }
+    };
+
+    function topFunction() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>
