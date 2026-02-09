@@ -27,12 +27,11 @@ body {background:#f9f9f9; color:#333; line-height:1.6;}
 /* THE IMAGE FIX */
 .project-card img {
     width: 100%;
-    height: 220px;       /* Keeps all cards uniform height */
-    object-fit: cover;   /* Prevents the "too wide" stretching if image is missing */
+    height: 250px;       /* This prevents the wide/stretched look */
+    object-fit: cover;   /* This crops the image to fit the box perfectly */
     display: block;
-    background-color: #e5e7eb; /* Placeholder color */
+    background-color: #f3f4f6; /* Shows a grey box if the image is still missing */
 }
-
 .project-info {padding:1rem;}
 .project-info h3 {color:#1E3A8A; margin-bottom:0.5rem;}
 .project-info a {display:inline-block; padding:0.5rem 1rem; background:#1E3A8A; color:#fff; border-radius:5px; text-decoration:none;}
