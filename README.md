@@ -2,8 +2,13 @@
 
 **Data Analyst | Power BI & Microsoft Fabric | Python & SQL | Excel Automation | Product, Growth & Workforce Analytics**
 
-I transform raw data into **actionable business insights** that support better decisions.  
-My work spans **growth analytics, HR analytics, and operational intelligence**, with a strong focus on storytelling, clarity, and impact.
+Data Analyst specializing in Power BI, SQL, and Python — transforming raw data into insights that drive business performance.
+
+I am a Data Analyst and Analytics Educator with strong experience in Power BI, SQL, Python, Excel, and Microsoft Fabric.
+
+I specialize in transforming complex datasets into clear, business-ready insights through dashboards, KPI frameworks, and data storytelling.
+
+I actively contribute to the Microsoft Fabric Community and Microsoft Tech Community, where I help professionals solve real-world analytics problems and improve their reporting skills.
 
 ---
 
@@ -37,10 +42,15 @@ Enterprise-style workforce analytics focused on attrition, engagement, and compe
 ---
 
 ## 📊 Skills & Tools
-- **BI & Visualization:** Power BI, DAX, Power Query, Excel Advanced
-- **Analytics & Programming:** Python, SQL, Pandas, NumPy, Statsmodels
-- **Data Engineering:** Microsoft Fabric, ETL, Data Modeling
-- **Business Analytics:** KPI design, experimentation, workforce analytics
+Analytics & BI
+• Power BI • Excel Analytics • KPI Design • Data Storytelling
+
+Data & Engineering
+• SQL • Python • ETL • Data Modeling • Microsoft Fabric
+
+Business Skills
+• Operational Analytics • Performance Measurement • Stakeholder Reporting
+
 
 ---
 
