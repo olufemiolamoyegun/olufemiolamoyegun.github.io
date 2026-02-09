@@ -27,10 +27,10 @@ body {background:#f9f9f9; color:#333; line-height:1.6;}
 /* THE IMAGE FIX */
 .project-card img {
     width: 100%;
-    height: 250px;       /* This prevents the wide/stretched look */
-    object-fit: cover;   /* This crops the image to fit the box perfectly */
+    height: 220px;       /* Keeps all project cards identical in height */
+    object-fit: cover;   /* Prevents images from stretching or looking "wide" */
     display: block;
-    background-color: #f3f4f6; /* Shows a grey box if the image is still missing */
+    background-color: #e5e7eb; /* The light grey you see in your screenshots */
 }
 .project-info {padding:1rem;}
 .project-info h3 {color:#1E3A8A; margin-bottom:0.5rem;}
