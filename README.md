@@ -29,15 +29,15 @@ Operational performance analysis covering CSAT, ASA, AHT, and agent productivity
 
 ### 📈 Growth Analytics & A/B Testing (Python)
 End-to-end A/B testing with statistical validation and business recommendations  
-🔗 https://github.com/olufemiolamoyegun/Growth-Analytics-AB-Testing
+🔗 https://github.com/olufemiolamoyegun/Growth-Analytics-A-B-Testing
 
 ### 🎵 Spotify Streaming Analytics (Python)
 Exploratory data analysis of music engagement and popularity drivers  
-🔗 https://github.com/olufemiolamoyegun/Spotify-Tracks-Analysis-Usin
+🔗 https://github.com/olufemiolamoyegun/-Spotify-Streaming-Analytics-Python-
 
 ### 👔 HR Analytics & Workforce Intelligence (SQL + Power BI)
 Enterprise-style workforce analytics focused on attrition, engagement, and compensation  
-🔗 https://github.com/olufemiolamoyegun/Employees-Demographics-and-Salary-Analysis-using-SQL
+🔗 https://github.com/olufemiolamoyegun/-HR-Analytics-Workforce-Intelligence
 
 ---
 
