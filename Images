@@ -1,10 +1,14 @@
-<img src="images/pwc_call_centre.png" class="project-img" alt="PwC Call Centre Analytics Power BI Dashboard">
+<!-- PwC Call Centre -->
+<img src="Images/pwc_call_centre.png" class="project-img" alt="PwC Call Centre Analytics Power BI Dashboard">
 
-<img src="images/ab_testing_analysis.png" class="project-img" alt="Growth Analytics and A/B Testing Analysis (Python)">
+<!-- Growth Analytics -->
+<img src="Images/ab_testing_analysis.png" class="project-img" alt="Growth Analytics and A/B Testing Analysis (Python)">
 
-<img src="images/spotify_streaming.png" class="project-img" alt="Spotify Streaming Analytics Dashboard">
+<!-- Spotify Analytics -->
+<img src="Images/spotify_streaming.png" class="project-img" alt="Spotify Streaming Analytics Dashboard">
 
-<img src="images/hr_analytics_workforce.png" class="project-img" alt="HR Analytics and Workforce Intelligence Dashboard">
+<!-- HR Analytics -->
+<img src="Images/hr_analytics_workforce.png" class="project-img" alt="HR Analytics and Workforce Intelligence Dashboard">
 
 
 
