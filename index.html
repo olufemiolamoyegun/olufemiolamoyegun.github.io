@@ -1,214 +1,200 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Olufemi Olamoyegun | Analytics Architecture</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <style>
-        /* Icon-Only Social Bar Styling */
-        #header .icons li a .label { display: none; }
-        .custom-icon { 
-            width: 24px; height: 24px; vertical-align: middle; 
-            margin-top: -5px; border-radius: 4px; filter: grayscale(100%); transition: 0.3s; 
-        }
-        .icons li a:hover .custom-icon { filter: grayscale(0%); transform: scale(1.1); }
-        
-        /* Dashboard Image Fix - Ensures full visibility without cutting off at the top */
-        .posts article {
-            background: #fff;
-            border: 1px solid #e1e4e8;
-            border-radius: 12px;
-            padding: 1.5rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .image.fit {
-            width: 100%;
-            height: 200px; /* Defined height for consistency */
-            margin: 0 0 1.5rem 0;
-            border-radius: 8px;
-            overflow: hidden;
-            background: #f8f9fa;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid #eee;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olufemi Olamoyegun | Data Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Olufemi Olamoyegun – Data Analyst specializing in Power BI, SQL, Python, Excel, and Microsoft Fabric.">
 
-        .image.fit img {
-            max-width: 100%;
-            max-height: 100%;
-            width: auto;
-            height: auto;
-            display: block;
-            object-fit: contain; /* Prevents clipping/cutting off dashboard edges */
-        }
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-        /* Banner adjustment for full width since headshot is removed */
-        #banner .content { width: 100% !important; max-width: 100% !important; }
-    </style>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="is-preload">
+<body>
 
-    <div id="wrapper">
-        <div id="main">
-            <div class="inner">
-
-                <header id="header">
-                    <a href="index.html" class="logo"><strong>OLUFEMI</strong> OLAMOYEGUN</a>
-                    <ul class="icons">
-                        <li><a href="https://github.com/olufemiolamoyegun" class="icon brands fa-github"></a></li>
-                        <li><a href="https://www.linkedin.com/in/olufemi-olamoyegun" class="icon brands fa-linkedin-in"></a></li>
-                        <li><a href="https://x.com/olamfe" class="icon brands fa-x-twitter"></a></li>
-                        <li><a href="https://medium.com/@olamfe" class="icon brands fa-medium-m"></a></li>
-                        
-                        <li><a href="https://community.fabric.microsoft.com/t5/user/viewprofilepage/user-id/843006" title="Microsoft Fabric">
-                            <img src="Images/Microsoft%20Fabric%20Community.jpeg" class="custom-icon" alt="Fabric">
-                        </a></li>
-                        
-                        <li><a href="https://techcommunity.microsoft.com/users/olufemio/1895696" title="Microsoft Tech Community">
-                            <img src="Images/Microsoft%20Tech%20Community.png" class="custom-icon" alt="Tech">
-                        </a></li>
-                        
-                        <li><a href="mailto:femi_olamoyegun@outlook.com" class="icon solid fa-envelope"></a></li>
-                    </ul>
-                </header>
-
-                <section id="banner">
-                    <div class="content">
-                        <header>
-                            <h1>Architecting Data Systems<br />
-                            for Enterprise Clarity</h1>
-                            <p>Analytics Strategy | Microsoft Fabric | BI Engineering</p>
-                        </header>
-                        <p>I specialize in transforming fragmented data environments into high-performance analytical assets. By implementing scalable architectures in Microsoft Fabric and leveraging SQL for deep-dive exploration, I provide the structural intelligence organizations need to optimize operations and capture growth opportunities.</p>
-                        <ul class="actions">
-                            <li><a href="mailto:femi_olamoyegun@outlook.com" class="button primary big">Discuss a Project</a></li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section>
-                    <header class="major">
-                        <h2>Analytical Frameworks</h2>
-                    </header>
-                    <div class="features">
-                        <article>
-                            <span class="icon solid fa-layer-group"></span>
-                            <div class="content">
-                                <h3>Architecture & Modeling</h3>
-                                <p>Building resilient data models and automated ingestion workflows within the Microsoft ecosystem to ensure enterprise-grade accuracy.</p>
-                            </div>
-                        </article>
-                        <article>
-                            <span class="icon solid fa-chart-area"></span>
-                            <div class="content">
-                                <h3>Operational Intelligence</h3>
-                                <p>Converting complex operational KPIs into high-fidelity dashboards that drive immediate stakeholder action and process efficiency.</p>
-                            </div>
-                        </article>
-                        <article>
-                            <span class="icon solid fa-code"></span>
-                            <div class="content">
-                                <h3>Statistical Computing</h3>
-                                <p>Deploying Python-based analysis for hypothesis testing and behavioral modeling to mitigate risk in strategic deployments.</p>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-
-                <section id="projects">
-                    <header class="major">
-                        <h2>Strategic Case Studies</h2>
-                    </header>
-                    <div class="posts">
-                        
-                        <article>
-                            <a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" class="image fit">
-                                <img src="Images/pwc_call_centre.png" alt="PwC Dashboard">
-                            </a>
-                            <h3>Operations Optimization</h3>
-                            <p>Engineered a performance dashboard for PWC, distilling call center metrics into actionable service-level insights.</p>
-                            <ul class="actions">
-                                <li><a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" class="button">View Study</a></li>
-                            </ul>
-                        </article>
-
-                        <article>
-                            <a href="https://github.com/olufemiolamoyegun/Growth-Analytics-AB-Testing" class="image fit">
-                                <img src="Images/ab_testing_analysis.png" alt="A/B Testing">
-                            </a>
-                            <h3>Experimental Design</h3>
-                            <p>Validated product growth strategies through rigorous A/B testing and statistical modeling using Python scripts.</p>
-                            <ul class="actions">
-                                <li><a href="https://github.com/olufemiolamoyegun/Growth-Analytics-AB-Testing" class="button">View Study</a></li>
-                            </ul>
-                        </article>
-
-                        <article>
-                            <a href="https://github.com/olufemiolamoyegun/Spotify-Streaming-Analytics-Python" class="image fit">
-                                <img src="Images/spotify_heatmap.png" alt="Spotify Analysis">
-                            </a>
-                            <h3>Engagement Discovery</h3>
-                            <p>Mapped consumer listening behaviors using exploratory data analysis to identify high-potential engagement drivers.</p>
-                            <ul class="actions">
-                                <li><a href="https://github.com/olufemiolamoyegun/Spotify-Streaming-Analytics-Python" class="button">View Study</a></li>
-                            </ul>
-                        </article>
-
-                        <article>
-                            <a href="https://github.com/olufemiolamoyegun/HR-Analytics-Workforce-Intelligence" class="image fit">
-                                <img src="Images/hr_analytics_workforce.png" alt="HR Analytics">
-                            </a>
-                            <h3>Human Capital Analytics</h3>
-                            <p>Synthesized workforce data to predict attrition trends and align compensation frameworks with business goals.</p>
-                            <ul class="actions">
-                                <li><a href="https://github.com/olufemiolamoyegun/HR-Analytics-Workforce-Intelligence" class="button">View Study</a></li>
-                            </ul>
-                        </article>
-
-                    </div>
-                </section>
-
-            </div>
-        </div>
-
-        <div id="sidebar">
-            <div class="inner">
-                <nav id="menu">
-                    <header class="major">
-                        <h2>Portfolio</h2>
-                    </header>
-                    <ul>
-                        <li><a href="index.html">Intelligence Summary</a></li>
-                        <li><a href="https://github.com/olufemiolamoyegun">Technical Repositories</a></li>
-                    </ul>
-                </nav>
-                <section>
-                    <header class="major">
-                        <h2>Contact</h2>
-                    </header>
-                    <p>Open for BI architecture consultations and high-impact analytics collaborations.</p>
-                    <ul class="contact">
-                        <li class="icon solid fa-envelope">femi_olamoyegun@outlook.com</li>
-                        <li class="icon solid fa-location-arrow">Lagos, Nigeria</li>
-                    </ul>
-                </section>
-                <footer id="footer">
-                    <p class="copyright">&copy; 2026 Olufemi Olamoyegun.</p>
-                </footer>
-            </div>
-        </div>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="logo">Olufemi Olamoyegun</h1>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-container">
+      <h2>Hi, I’m Olufemi 👋</h2>
+      <h3>Data Analyst per Excellence</h3>
+      <p>
+        I specialize in Power BI, SQL, Python, Excel, and Microsoft Fabric. I help businesses
+        make data-driven decisions by transforming raw data into actionable insights and dashboards.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I am a Data Analyst and Analytics Educator with hands-on experience building dashboards,
+        KPI frameworks, and analytics solutions for operational, growth, and workforce use cases.
+        I enjoy translating complex data into clear insights for both technical and non-technical stakeholders.
+      </p>
+      <p>
+        I actively contribute to the Microsoft Fabric Community and Microsoft Tech Community,
+        helping professionals solve real-world analytics problems and improve their reporting skills.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Problem Solving</h3>
+          <p>Deep analysis and practical solutions for complex business problems.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Communication</h3>
+          <p>Clear explanation of insights to technical and non-technical audiences.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Critical Thinking</h3>
+          <p>Structured, creative approach to ensure accurate and actionable insights.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Teamwork</h3>
+          <p>Collaborative and accountable approach to achieving shared objectives.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="pwc_call_centre.png" alt="PwC Call Centre Analytics">
+          <div class="project-content">
+            <h3>PwC Call Centre Analytics</h3>
+            <p>Operational performance analysis covering CSAT, ASA, AHT, and agent productivity.</p>
+            <a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" target="_blank" class="btn-link">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="ab_testing_analysis.png" alt="Growth Analytics & A/B Testing">
+          <div class="project-content">
+            <h3>Growth Analytics & A/B Testing</h3>
+            <p>End-to-end A/B testing with statistical validation and business recommendations.</p>
+            <a href="https://github.com/olufemiolamoyegun/Growth-Analytics-A-B-Testing" target="_blank" class="btn-link">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <img src="spotify_heatmap.png" alt="Spotify Streaming Analytics">
+          <div class="project-content">
+            <h3>Spotify Streaming Analytics</h3>
+            <p>Exploratory data analysis uncovering music engagement and popularity drivers.</p>
+            <a href="https://github.com/olufemiolamoyegun/-Spotify-Streaming-Analytics-Python-" target="_blank" class="btn-link">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <img src="hr_analytics_workforce.png" alt="HR Analytics & Workforce Intelligence">
+          <div class="project-content">
+            <h3>HR Analytics & Workforce Intelligence</h3>
+            <p>Workforce analytics focused on attrition, engagement, and compensation insights.</p>
+            <a href="https://github.com/olufemiolamoyegun/-HR-Analytics-Workforce-Intelligence" target="_blank" class="btn-link">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p>I’m open to Data Analyst roles, collaborative projects, and helping you solve real business problems using data.</p>
+
+      <div class="contact-grid">
+        <div class="contact-item"><i class="fas fa-envelope"></i> anifowosetemitayo.d@gmail.com</div>
+        <div class="contact-item"><i class="fas fa-phone"></i> +234 81 4283 9405</div>
+        <div class="contact-item"><i class="fas fa-location-dot"></i> Ikeja, Lagos, Nigeria</div>
+      </div>
+
+      <div class="social-links">
+        <a href="https://github.com/olufemiolamoyegun" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/olufemiolamoyegun" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://medium.com" target="_blank"><i class="fab fa-medium"></i></a>
+        <a href="https://community.fabric.microsoft.com" target="_blank"><i class="fab fa-microsoft"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Olufemi Olamoyegun. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- Scripts -->
+  <script>
+    // Smooth scroll for nav links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e){
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if(target){
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Back to Top button
+    const backToTop = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      if(window.scrollY > 300){
+        backToTop.style.display = 'flex';
+      } else {
+        backToTop.style.display = 'none';
+      }
+    });
+
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 
 </body>
 </html>
