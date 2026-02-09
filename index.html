@@ -1,170 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Olufemi Olamoyegun - Data Analyst Portfolio showcasing Power BI, Python, SQL, and Microsoft Fabric projects.">
-    <meta name="keywords" content="Data Analyst, Power BI, Python, SQL, Microsoft Fabric, HR Analytics, Growth Analytics, Portfolio">
-    <meta name="author" content="Olufemi Olamoyegun">
-    <title>Olufemi Olamoyegun | Data Analyst Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Projects</title>
+<style>
+/* BASE RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-L0h6a..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+body {
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* NAVBAR */
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #1E3A8A;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.75rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s;
+    font-size: 0.95rem;
+}
+
+.nav-menu li a:hover::after {}
+.nav-menu li a.active {
+    color: #fcd34d;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg,#1E3A8A,#2563EB);
+    color: #fff;
+    text-align: center;
+    padding: 6rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* PROJECTS SECTION */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    object-fit: cover;
+    display: block;
+    background-color: #e5e7eb;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-info {
+    padding: 0.75rem 1rem;
+}
+
+.project-info h3 {
+    color: #1E3A8A;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-info a {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    background: #1E3A8A;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+/* SOCIAL LINKS */
+.social-links {
+    margin: 2rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a img {
+    width: 32px;
+    height: 32px;
+}
+</style>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#hero" class="nav-logo">Olufemi Olamoyegun</a>
-            <ul class="nav-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <header id="hero" class="hero">
-        <div class="hero-content">
-            <h1>Hi, I’m Olufemi Olamoyegun 👋</h1>
-            <p>Data Analyst | Power BI & Microsoft Fabric | Python & SQL | Excel Automation</p>
-            <div class="social-links">
-                <a href="https://github.com/olufemiolamoyegun" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="http://www.linkedin.com/in/olufemi-olamoyegun" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://x.com/olamfe" target="_blank"><i class="fab fa-x-twitter"></i></a>
-                <a href="https://medium.com/@olufemiolamoyegun" target="_blank"><i class="fab fa-medium"></i></a>
-                <a href="https://community.fabric.microsoft.com/t5/user/viewprofilepage/user-id/843006" target="_blank"><i class="fas fa-database"></i></a>
-                <a href="https://techcommunity.microsoft.com/users/olufemio/1895696" target="_blank"><i class="fas fa-users"></i></a>
-            </div>
-        </div>
-    </header>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="nav-logo">My Portfolio</a>
+        <ul class="nav-menu">
+            <li><a href="#projects" class="active">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
-    <!-- About Section -->
-    <section id="about" class="section about-section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I specialize in transforming complex datasets into clear, business-ready insights through dashboards, KPI frameworks, and data storytelling. I actively contribute to the Microsoft Fabric Community and Microsoft Tech Community to help professionals solve real-world analytics problems.</p>
-        </div>
-    </section>
+<!-- HERO SECTION -->
+<section class="hero">
+  <h1>My Projects</h1>
+  <p>Some of my latest work and analyses</p>
+</section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section skills-section">
-        <div class="container">
-            <h2>My Skills</h2>
-            <div class="skills-cards">
-                <div class="skill-card">
-                    <h3>Problem Solving</h3>
-                    <p>I approach problems with a "Get it done" mindset by researching, asking questions, and understanding the challenge fully.</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Critical Thinking</h3>
-                    <p>My analytical approach ensures creative and effective solutions while considering both short-term and long-term impact.</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Teamwork & Collaboration</h3>
-                    <p>I work effectively in diverse teams, leveraging collaboration to achieve shared business objectives.</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Communication</h3>
-                    <p>I simplify complex data insights into actionable recommendations for technical and non-technical stakeholders.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section projects-section">
+  <div class="projects-grid">
 
- <div class="projects-grid">
-
+    <!-- Project 1 -->
     <div class="project-card">
-        <img src="images/pwc_call_centre.png" class="project-img" alt="PwC Call Centre Analytics Power BI Dashboard">
-        <div class="project-info">
-            <h3>PwC Call Centre Analytics</h3>
-            <p>Operational performance analysis covering CSAT, ASA, AHT, and agent productivity dashboards in Power BI.</p>
-            <a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" target="_blank">View Project</a>
-        </div>
+      <img src="images/pwc_call_centre.png" alt="PwC Call Centre Analysis">
+      <div class="project-info">
+        <h3>PwC Call Centre</h3>
+        <a href="#">View Project</a>
+      </div>
     </div>
 
+    <!-- Project 2 -->
     <div class="project-card">
-        <img src="images/ab_testing_analysis.png" class="project-img" alt="Growth Analytics and A/B Testing Analysis (Python)">
-        <div class="project-info">
-            <h3>Growth Analytics & A/B Testing</h3>
-            <p>End-to-end A/B testing with statistical validation and business recommendations using Python.</p>
-            <a href="https://github.com/olufemiolamoyegun/Growth-Analytics-A-B-Testing" target="_blank">View Project</a>
-        </div>
+      <img src="images/ab_testing_analysis.png" alt="AB Testing Analysis">
+      <div class="project-info">
+        <h3>AB Testing Analysis</h3>
+        <a href="#">View Project</a>
+      </div>
     </div>
 
+    <!-- Project 3 -->
     <div class="project-card">
-        <img src="images/spotify_streaming.png" class="project-img" alt="Spotify Streaming Analytics Dashboard">
-        <div class="project-info">
-            <h3>Spotify Streaming Analytics</h3>
-            <p>Exploratory data analysis of music engagement and popularity drivers using Python.</p>
-            <a href="https://github.com/olufemiolamoyegun/-Spotify-Streaming-Analytics-Python-" target="_blank">View Project</a>
-        </div>
+      <img src="images/spotify_streaming.png" alt="Spotify Streaming Analysis">
+      <div class="project-info">
+        <h3>Spotify Streaming</h3>
+        <a href="#">View Project</a>
+      </div>
     </div>
 
+    <!-- Project 4 -->
     <div class="project-card">
-        <img src="images/hr_analytics_workforce.png" class="project-img" alt="HR Analytics and Workforce Intelligence Dashboard">
-        <div class="project-info">
-            <h3>HR Analytics & Workforce Intelligence</h3>
-            <p>Enterprise-style workforce analytics focused on attrition, engagement, and compensation using SQL and Power BI.</p>
-            <a href="https://github.com/olufemiolamoyegun/-HR-Analytics-Workforce-Intelligence" target="_blank">View Project</a>
-        </div>
+      <img src="images/hr_analytics_workforce.png" alt="HR Analytics Workforce">
+      <div class="project-info">
+        <h3>HR Analytics Workforce</h3>
+        <a href="#">View Project</a>
+      </div>
     </div>
 
+  </div>
+</section>
+
+<!-- SOCIAL LINKS -->
+<div class="container">
+    <div class="social-links">
+        <!-- Microsoft Fabric Community -->
+        <a href="https://techcommunity.microsoft.com/t5/microsoft-fabric/ct-p/MicrosoftFabric" target="_blank">
+            <img src="images/microsoft_fabric.png" alt="Microsoft Fabric Community">
+        </a>
+
+        <!-- Microsoft Tech Community -->
+        <a href="https://techcommunity.microsoft.com/" target="_blank">
+            <img src="images/microsoft_tech.png" alt="Microsoft Tech Community">
+        </a>
+    </div>
 </div>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-        <div class="container">
-            <h2>Get in Touch</h2>
-            <div class="social-contact">
-                <a href="mailto:olamoyegun07@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-                <a href="http://www.linkedin.com/in/olufemi-olamoyegun" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://x.com/olamfe" target="_blank"><i class="fab fa-x-twitter"></i> X/Twitter</a>
-                <a href="https://github.com/olufemiolamoyegun" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://community.fabric.microsoft.com/t5/user/viewprofilepage/user-id/843006" target="_blank"><i class="fas fa-database"></i> Fabric</a>
-                <a href="https://techcommunity.microsoft.com/users/olufemio/1895696" target="_blank"><i class="fas fa-users"></i> Tech Community</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>© 2026 Olufemi Olamoyegun</p>
-        </div>
-    </footer>
-
-    <!-- Smooth Scroll & Active Section Highlight Script -->
-    <script>
-        const navLinks = document.querySelectorAll('.nav-menu li a');
-        const sections = document.querySelectorAll('section');
-
-        navLinks.forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        window.addEventListener('scroll', () => {
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop - 80;
-                if (pageYOffset >= sectionTop) current = section.getAttribute('id');
-            });
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === '#' + current) link.classList.add('active');
-            });
-        });
-    </script>
 </body>
 </html>
-
