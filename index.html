@@ -14,29 +14,35 @@
         }
         .icons li a:hover .custom-icon { filter: grayscale(0%); transform: scale(1.1); }
         
-        /* Modern Project Card Styling - Prevents 'too wide' images */
+        /* Dashboard Image Fix - Ensures full visibility without cutting off */
         .posts article {
             background: #fff;
             border: 1px solid #e1e4e8;
             border-radius: 12px;
             padding: 1.5rem;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
         }
-        .posts article:hover { transform: translateY(-5px); box-shadow: 0 12px 20px rgba(0,0,0,0.1); }
         
         .image.fit {
-            max-width: 350px; /* Constraints image width */
-            margin: 0 auto 1.5rem auto;
-            display: block;
+            width: 100%;
+            max-width: 100%; 
+            margin: 0 0 1.5rem 0;
             border-radius: 8px;
             overflow: hidden;
-        }
-        .image.fit img {
-            height: 180px;
-            object-fit: contain; /* Keeps dashboard proportions professional */
             background: #f8f9fa;
+            border: 1px solid #eee;
         }
+
+        .image.fit img {
+            width: 100%;
+            height: auto; /* Changed from fixed height to prevent cutting off top/bottom */
+            display: block;
+            object-fit: contain; /* Ensures the whole dashboard fits in the box */
+        }
+
+        #banner .content { width: 100% !important; max-width: 100% !important; }
     </style>
 </head>
 <body class="is-preload">
@@ -56,6 +62,7 @@
                         <li><a href="https://community.fabric.microsoft.com/t5/user/viewprofilepage/user-id/843006" title="Microsoft Fabric">
                             <img src="Images/Microsoft%20Fabric%20Community.jpeg" class="custom-icon" alt="Fabric">
                         </a></li>
+                        
                         <li><a href="https://techcommunity.microsoft.com/users/olufemio/1895696" title="Microsoft Tech Community">
                             <img src="Images/Microsoft%20Tech%20Community.png" class="custom-icon" alt="Tech">
                         </a></li>
@@ -67,52 +74,49 @@
                 <section id="banner">
                     <div class="content">
                         <header>
-                            <h1>Architecting Data Systems<br />
-                            for Enterprise Clarity</h1>
-                            <p>Analytics Strategy | Microsoft Fabric | BI Engineering</p>
+                            <h1>Engineering Decision-Ready<br />
+                            Intelligence Frameworks</h1>
+                            <p>Analytics Strategy | Microsoft Fabric | BI Solutions</p>
                         </header>
-                        <p>I specialize in transforming fragmented data environments into high-performance analytical assets. By implementing scalable architectures in Microsoft Fabric and leveraging SQL for deep-dive exploration, I provide the structural intelligence organizations need to optimize operations and capture growth opportunities.</p>
+                        <p>I architect scalable data environments that bridge the gap between raw information and organizational action. Specializing in the Microsoft Fabric ecosystem and SQL-driven exploration, I focus on delivering automated, high-integrity reporting systems that optimize operational performance and highlight strategic growth vectors.</p>
                         <ul class="actions">
-                            <li><a href="mailto:femi_olamoyegun@outlook.com" class="button primary big">Discuss a Project</a></li>
+                            <li><a href="mailto:femi_olamoyegun@outlook.com" class="button primary big">Discuss a Collaboration</a></li>
                         </ul>
                     </div>
-                    <span class="image object">
-                        <img src="Images/profile.jpg" alt="Headshot" />
-                    </span>
                 </section>
 
                 <section>
                     <header class="major">
-                        <h2>Analytical Frameworks</h2>
+                        <h2>Analytical Domains</h2>
                     </header>
                     <div class="features">
                         <article>
-                            <span class="icon solid fa-layer-group"></span>
+                            <span class="icon solid fa-database"></span>
                             <div class="content">
-                                <h3>Architecture & Modeling</h3>
-                                <p>Building resilient data models and automated ingestion workflows within the Microsoft ecosystem to ensure enterprise-grade accuracy.</p>
+                                <h3>Data Architecture</h3>
+                                <p>Designing resilient pipelines and unified data models in Microsoft Fabric to ensure consistent, accurate metrics across the organization.</p>
                             </div>
                         </article>
                         <article>
-                            <span class="icon solid fa-chart-area"></span>
+                            <span class="icon solid fa-chart-line"></span>
                             <div class="content">
-                                <h3>Operational Intelligence</h3>
-                                <p>Converting complex operational KPIs into high-fidelity dashboards that drive immediate stakeholder action and process efficiency.</p>
+                                <h3>Strategic Visualization</h3>
+                                <p>Developing executive-level Power BI solutions that transform complex operational data into clear, actionable visual stories.</p>
                             </div>
                         </article>
                         <article>
-                            <span class="icon solid fa-code"></span>
+                            <span class="icon solid fa-microscope"></span>
                             <div class="content">
-                                <h3>Statistical Computing</h3>
-                                <p>Deploying Python-based analysis for hypothesis testing and behavioral modeling to mitigate risk in strategic deployments.</p>
+                                <h3>Technical Analysis</h3>
+                                <p>Applying Python and SQL for rigorous exploratory analysis and statistical validation to support data-driven business modeling.</p>
                             </div>
                         </article>
                     </div>
                 </section>
 
-                <section>
+                <section id="projects">
                     <header class="major">
-                        <h2>Strategic Case Studies</h2>
+                        <h2>Featured Projects</h2>
                     </header>
                     <div class="posts">
                         
@@ -120,10 +124,10 @@
                             <a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" class="image fit">
                                 <img src="Images/pwc_call_centre.png" alt="PwC Dashboard" />
                             </a>
-                            <h3>Operations Optimization</h3>
-                            <p>Engineered a performance dashboard for PWC, distilling call center metrics into actionable service-level insights.</p>
+                            <h3>PwC Call Centre Analytics</h3>
+                            <p>Comprehensive operational analysis covering CSAT, ASA, and agent productivity through an interactive BI cockpit.</p>
                             <ul class="actions">
-                                <li><a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" class="button">View Study</a></li>
+                                <li><a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" class="button">Examine Study</a></li>
                             </ul>
                         </article>
 
@@ -131,10 +135,10 @@
                             <a href="https://github.com/olufemiolamoyegun/Growth-Analytics-AB-Testing" class="image fit">
                                 <img src="Images/ab_testing_analysis.png" alt="A/B Testing" />
                             </a>
-                            <h3>Experimental Design</h3>
-                            <p>Validated product growth strategies through rigorous A/B testing and statistical modeling using Python scripts.</p>
+                            <h3>Growth Analytics & A/B Testing</h3>
+                            <p>End-to-end experimental design with statistical significance testing to validate user-interface and business optimizations.</p>
                             <ul class="actions">
-                                <li><a href="https://github.com/olufemiolamoyegun/Growth-Analytics-AB-Testing" class="button">View Study</a></li>
+                                <li><a href="https://github.com/olufemiolamoyegun/Growth-Analytics-AB-Testing" class="button">Examine Study</a></li>
                             </ul>
                         </article>
 
@@ -142,10 +146,10 @@
                             <a href="https://github.com/olufemiolamoyegun/Spotify-Streaming-Analytics-Python" class="image fit">
                                 <img src="Images/spotify_heatmap.png" alt="Spotify Analysis" />
                             </a>
-                            <h3>Engagement Discovery</h3>
-                            <p>Mapped consumer listening behaviors using exploratory data analysis to identify high-potential engagement drivers.</p>
+                            <h3>Spotify Streaming Analytics</h3>
+                            <p>Exploratory data analysis uncovering music engagement patterns and popularity drivers via Python-based visualization.</p>
                             <ul class="actions">
-                                <li><a href="https://github.com/olufemiolamoyegun/Spotify-Streaming-Analytics-Python" class="button">View Study</a></li>
+                                <li><a href="https://github.com/olufemiolamoyegun/Spotify-Streaming-Analytics-Python" class="button">Examine Study</a></li>
                             </ul>
                         </article>
 
@@ -153,10 +157,10 @@
                             <a href="https://github.com/olufemiolamoyegun/HR-Analytics-Workforce-Intelligence" class="image fit">
                                 <img src="Images/hr_analytics_workforce.png" alt="HR Analytics" />
                             </a>
-                            <h3>Human Capital Analytics</h3>
-                            <p>Synthesized workforce data to predict attrition trends and align compensation frameworks with business goals.</p>
+                            <h3>Workforce Intelligence</h3>
+                            <p>Mapping attrition risks and organizational engagement to align human capital management with company performance goals.</p>
                             <ul class="actions">
-                                <li><a href="https://github.com/olufemiolamoyegun/HR-Analytics-Workforce-Intelligence" class="button">View Study</a></li>
+                                <li><a href="https://github.com/olufemiolamoyegun/HR-Analytics-Workforce-Intelligence" class="button">Examine Study</a></li>
                             </ul>
                         </article>
 
@@ -170,21 +174,21 @@
             <div class="inner">
                 <nav id="menu">
                     <header class="major">
-                        <h2>Portfolio</h2>
+                        <h2>Navigation</h2>
                     </header>
                     <ul>
-                        <li><a href="index.html">Intelligence Summary</a></li>
-                        <li><a href="https://github.com/olufemiolamoyegun">Technical Repositories</a></li>
+                        <li><a href="index.html">Intelligence Overview</a></li>
+                        <li><a href="https://github.com/olufemiolamoyegun">Source Repositories</a></li>
                     </ul>
                 </nav>
                 <section>
                     <header class="major">
-                        <h2>Contact</h2>
+                        <h2>Connect</h2>
                     </header>
-                    <p>Open for BI architecture consultations and high-impact analytics collaborations.</p>
+                    <p>Open for discussions regarding BI architecture, community initiatives, and data consulting.</p>
                     <ul class="contact">
                         <li class="icon solid fa-envelope">femi_olamoyegun@outlook.com</li>
-                        <li class="icon solid fa-location-arrow">Lagos, Nigeria</li>
+                        <li class="icon solid fa-map-marker-alt">Lagos, Nigeria</li>
                     </ul>
                 </section>
                 <footer id="footer">
