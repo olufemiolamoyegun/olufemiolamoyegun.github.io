@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <style>
-        /* Custom Icon Styling */
+        /* Modern Icon Styling */
         .community-icon { 
             width: 22px; height: 22px; vertical-align: middle; 
             margin: 0 5px; border-radius: 3px; filter: grayscale(100%); transition: 0.3s; 
         }
         .icons li a:hover .community-icon { filter: grayscale(0%); transform: scale(1.1); }
+        
+        /* Hide text labels to show only icons */
+        #header .icons li a .label { display: none; }
         .image.fit img { object-fit: cover; height: 220px; border-radius: 8px; }
     </style>
 </head>
@@ -27,89 +30,32 @@
                     <li><a href="https://github.com/olufemiolamoyegun" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
                     <li><a href="https://www.linkedin.com/in/olufemi-olamoyegun" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
                     <li><a href="https://x.com/olamfe" class="icon brands fa-x-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="https://medium.com/@yourprofile" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-                    <li><a href="https://youtube.com/@yourchannel" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+                    <li><a href="https://medium.com/@olamfe" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+                    <li><a href="https://youtube.com/@olamfe" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
                     
                     <li><a href="https://community.fabric.microsoft.com/t5/user/viewprofilepage/user-id/843006" title="Microsoft Fabric">
-                        <img src="images.jpeg" class="community-icon" alt="Fabric">
+                        <img src="Images/Microsoft Fabric Community.jpeg" class="community-icon" alt="Fabric">
                     </a></li>
                     <li><a href="https://techcommunity.microsoft.com/users/olufemio/1895696" title="Tech Community">
-                        <img src="favicon-1730836271365.png" class="community-icon" alt="Tech Community">
+                        <img src="Images/Microsoft Tech Community.png" class="community-icon" alt="Tech Community">
                     </a></li>
                     
                     <li><a href="mailto:femi_olamoyegun@outlook.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
                 </ul>
             </header>
 
-            <section id="banner">
-                <div class="content">
-                    <header>
-                        <h1>Hi, I’m Olufemi<br />Olamoyegun 👋</h1>
-                        <p>Data Analyst | Power BI & Microsoft Fabric | Python & SQL | Excel Automation</p>
-                    </header>
-                    <p>I am a Data Analyst and Analytics Educator focused on transforming raw, complex datasets into clear, business-ready insights. I specialize in building dashboards, KPI frameworks, and analytical models that support data-driven decision-making across operations, growth, and workforce analytics.</p>
-                    <ul class="actions">
-                        <li><a href="mailto:femi_olamoyegun@outlook.com" class="button big">Contact Me</a></li>
-                    </ul>
-                </div>
-                <span class="image object">
-                    <img src="images/profile.jpg" alt="Olufemi Olamoyegun headshot" />
-                </span>
-            </section>
-
-            <section id="about">
-                <header class="major">
-                    <h2>About Me</h2>
-                </header>
-                <p>I specialize in transforming complex datasets into clear, business-ready insights through dashboards, KPI frameworks, and data storytelling. I actively contribute to the Microsoft Fabric Community and Microsoft Tech Community to help professionals solve real-world analytics problems.</p>
-
-                <header class="major">
-                    <h2>My Skills</h2>
-                </header>
-                <div class="features">
-                    <article>
-                        <span class="icon solid fa-lightbulb"></span>
-                        <div class="content">
-                            <h3>Problem Solving</h3>
-                            <p>I approach problems with a "Get it done" mindset by researching, asking questions, and understanding the challenge fully.</p>
-                        </div>
-                    </article>
-                    <article>
-                        <span class="icon solid fa-brain"></span>
-                        <div class="content">
-                            <h3>Critical Thinking</h3>
-                            <p>My analytical approach ensures creative and effective solutions while considering both short-term and long-term impact.</p>
-                        </div>
-                    </article>
-                    <article>
-                        <span class="icon solid fa-users"></span>
-                        <div class="content">
-                            <h3>Teamwork & Collaboration</h3>
-                            <p>I work effectively in diverse teams, leveraging collaboration to achieve shared business objectives.</p>
-                        </div>
-                    </article>
-                    <article>
-                        <span class="icon solid fa-comment"></span>
-                        <div class="content">
-                            <h3>Communication</h3>
-                            <p>I simplify complex data insights into actionable recommendations for technical and non-technical stakeholders.</p>
-                        </div>
-                    </article>
-                </div>
-            </section>
-
             <section id="projects">
                 <header class="major">
                     <h2>Featured Projects</h2>
                 </header>
                 <div class="posts">
-
+                    
                     <article>
                         <a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" class="image fit">
-                            <img src="https://raw.githubusercontent.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI/main/pwc_call_centre.png" alt="PwC Dashboard">
+                            <img src="Images/pwc_call_centre.png" alt="PwC Dashboard">
                         </a>
                         <h3>PwC Call Centre Analytics</h3>
-                        <p>Operational performance analysis covering CSAT, ASA, AHT, and agent productivity dashboards in Power BI.</p>
+                        <p>Operational performance analysis dashboards in Power BI.</p>
                         <ul class="actions">
                             <li><a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" class="button">View Project</a></li>
                         </ul>
@@ -117,10 +63,10 @@
 
                     <article>
                         <a href="https://github.com/olufemiolamoyegun/Growth-Analytics-AB-Testing" class="image fit">
-                            <img src="https://raw.githubusercontent.com/olufemiolamoyegun/Growth-Analytics-AB-Testing/main/ab_testing_analysis.png" alt="A/B Testing">
+                            <img src="Images/ab_testing_analysis.png" alt="A/B Testing">
                         </a>
                         <h3>Growth Analytics & A/B Testing</h3>
-                        <p>End-to-end A/B testing with statistical validation and business recommendations using Python.</p>
+                        <p>Statistical validation and business recommendations using Python.</p>
                         <ul class="actions">
                             <li><a href="https://github.com/olufemiolamoyegun/Growth-Analytics-AB-Testing" class="button">View Project</a></li>
                         </ul>
@@ -128,10 +74,10 @@
 
                     <article>
                         <a href="https://github.com/olufemiolamoyegun/Spotify-Streaming-Analytics-Python" class="image fit">
-                            <img src="https://raw.githubusercontent.com/olufemiolamoyegun/Spotify-Streaming-Analytics-Python/main/spotify_streaming.png" alt="Spotify Analytics">
+                            <img src="Images/spotify_heatmap.png" alt="Spotify Heatmap">
                         </a>
                         <h3>Spotify Streaming Analytics</h3>
-                        <p>Exploratory data analysis of music engagement and popularity drivers using Python.</p>
+                        <p>Exploratory data analysis of music engagement drivers using Python.</p>
                         <ul class="actions">
                             <li><a href="https://github.com/olufemiolamoyegun/Spotify-Streaming-Analytics-Python" class="button">View Project</a></li>
                         </ul>
@@ -139,10 +85,10 @@
 
                     <article>
                         <a href="https://github.com/olufemiolamoyegun/HR-Analytics-Workforce-Intelligence" class="image fit">
-                            <img src="https://raw.githubusercontent.com/olufemiolamoyegun/HR-Analytics-Workforce-Intelligence/main/hr_analytics_workforce.png" alt="HR Dashboard">
+                            <img src="Images/hr_analytics_workforce.png" alt="HR Dashboard">
                         </a>
-                        <h3>HR Analytics & Workforce Intelligence</h3>
-                        <p>Enterprise-style workforce analytics focused on attrition, engagement, and compensation using SQL and Power BI.</p>
+                        <h3>HR & Workforce Intelligence</h3>
+                        <p>Workforce analytics focused on attrition and engagement using SQL and Power BI.</p>
                         <ul class="actions">
                             <li><a href="https://github.com/olufemiolamoyegun/HR-Analytics-Workforce-Intelligence" class="button">View Project</a></li>
                         </ul>
@@ -153,39 +99,9 @@
 
         </div>
     </div>
-
-    <div id="sidebar">
-        <div class="inner">
-            <nav id="menu">
-                <header class="major">
-                    <h2>Menu</h2>
-                </header>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-            </nav>
-            <section>
-                <header class="major">
-                    <h2>Get in Touch</h2>
-                </header>
-                <p>Open to data analyst roles, consulting, and collaborative analytics projects.</p>
-                <ul class="contact">
-                    <li class="icon solid fa-envelope"><a href="mailto:femi_olamoyegun@outlook.com">femi_olamoyegun@outlook.com</a></li>
-                    <li class="icon solid fa-location-dot">Lagos, Nigeria</li>
-                </ul>
-            </section>
-            <footer id="footer">
-                <p class="copyright">&copy; 2026 Olufemi Olamoyegun. Built with HTML5 UP.</p>
-            </footer>
-        </div>
-    </div>
 </div>
 
 <script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
 
 </body>
