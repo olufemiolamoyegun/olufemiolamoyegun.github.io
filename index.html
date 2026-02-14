@@ -3,175 +3,150 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Olufemi Olamoyegun | Data Analyst Portfolio</title>
-  <meta name="description" content="Olufemi Olamoyegun – Data Analyst with expertise in Power BI, SQL, Python, Excel, and Microsoft Fabric.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Basic Reset & Fonts */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f9f9f9; color: #111; line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    /* Header Section */
+    header { text-align: center; padding: 60px 20px; background: #0078D7; color: #fff; }
+    header img { max-width: 150px; margin-bottom: 20px; border-radius: 10px; }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header h3 { font-weight: 400; font-size: 1.2rem; margin-bottom: 20px; }
+    header p { font-size: 1rem; }
+    header a.button { display: inline-block; margin: 10px; padding: 10px 20px; background: #fff; color: #0078D7; border-radius: 5px; font-weight: 600; transition: 0.3s; }
+    header a.button:hover { background: #e0e0e0; }
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    /* Sections */
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    section h2 { font-size: 2rem; margin-bottom: 20px; color: #0078D7; text-align: center; }
 
-  <!-- AOS Library -->
-  <link href="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.css" rel="stylesheet">
+    /* About */
+    #about ul { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    #about li { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
+    /* Projects */
+    #projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .project { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); transition: transform 0.3s; }
+    .project:hover { transform: translateY(-5px); }
+    .project img { width: 100%; border-radius: 8px; margin-bottom: 15px; }
+    .project h3 { color: #0078D7; margin-bottom: 10px; }
+    .project p { font-size: 0.9rem; margin-bottom: 10px; }
+    .project a { color: #0078D7; font-weight: 600; }
+
+    /* Skills */
+    #skills { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+    .skill { background: #0078D7; color: #fff; padding: 10px 15px; border-radius: 5px; font-weight: 600; }
+
+    /* Contact */
+    #contact { text-align: center; }
+    #contact a { display: inline-block; margin: 10px; padding: 10px 20px; background: #0078D7; color: #fff; border-radius: 5px; transition: 0.3s; }
+    #contact a:hover { background: #005a9e; }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      #about ul { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
-
 <body>
 
   <!-- Header -->
-  <header class="header">
-    <div class="container header-container">
-      <h1 class="logo">Olufemi Olamoyegun</h1>
-      <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#skills">Expertise</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <header>
+    <img src="Banner.png" alt="Data Analytics Banner">
+    <h1>Olufemi Olamoyegun</h1>
+    <h3>Data Analyst | Power BI & Microsoft Fabric | Python & SQL</h3>
+    <p>Turning complex data into actionable business insights</p>
+    <div>
+      <a href="https://olufemiolamoyegun.github.io/" class="button">Portfolio</a>
+      <a href="https://github.com/olufemiolamoyegun" class="button">GitHub</a>
+      <a href="https://www.linkedin.com/in/olufemi-olamoyegun" class="button">LinkedIn</a>
+      <a href="mailto:olamoyegun07@gmail.com" class="button">Email</a>
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container hero-container">
-      <h2>Hello, I’m Olufemi 👋</h2>
-      <h3>Data Analyst | Turning Data Into Actionable Insights</h3>
-      <p>
-        I help organizations make smarter decisions by transforming complex data into clear, actionable insights.
-        With expertise in Power BI, SQL, Python, Excel, and Microsoft Fabric, I build dashboards and analytics models
-        that drive measurable business impact.
-      </p>
-      <div class="hero-actions">
-        <a href="#projects" class="btn primary">See My Work</a>
-        <a href="#contact" class="btn secondary">Reach Out</a>
-      </div>
-    </div>
-  </section>
-
   <!-- About -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <p>
-        I am a results-driven Data Analyst with experience designing dashboards, building KPI frameworks,
-        and delivering analytics solutions that improve decision-making.
-      </p>
-      <p>
-        I actively contribute to analytics communities and share best practices to help professionals elevate
-        their reporting and analytics skills.
-      </p>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills" class="section alt">
-    <div class="container">
-      <h2 class="section-title">Areas of Expertise</h2>
-
-      <div class="skills-grid">
-        <div class="skill-card" data-aos="fade-up">
-          <h3>Data Analysis & Modeling</h3>
-          <p>Transform raw data into meaningful insights through analysis and modeling.</p>
-        </div>
-
-        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
-          <h3>Dashboard & Visualization</h3>
-          <p>Create intuitive dashboards that communicate KPIs and trends.</p>
-        </div>
-
-        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
-          <h3>Business Problem Solving</h3>
-          <p>Use data-driven insights to optimize processes and solve challenges.</p>
-        </div>
-
-        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
-          <h3>Collaboration & Communication</h3>
-          <p>Present insights clearly to technical and non-technical stakeholders.</p>
-        </div>
-      </div>
-    </div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Data Analyst focused on transforming raw data into strategic insights through dashboards, SQL analysis, and Python-driven analytics.</p>
+    <ul>
+      <li>📊 Business Intelligence & Dashboard Development</li>
+      <li>🧠 KPI Design & Performance Tracking</li>
+      <li>🗄 SQL & Data Modeling</li>
+      <li>🐍 Python Analytics (Pandas, NumPy, Statsmodels)</li>
+      <li>🔄 Reporting Automation & ETL Pipelines</li>
+      <li>📈 Data Storytelling for Decision Support</li>
+    </ul>
   </section>
 
   <!-- Projects -->
-  <section id="projects" class="section">
-    <div class="container">
-      <h2 class="section-title">Key Projects</h2>
+  <section id="projects">
+    <h2>Featured Projects</h2>
 
-      <div class="projects-grid">
-        <div class="project-card" data-aos="zoom-in">
-          <img src="pwc_call_centre.png" alt="Call Centre Performance Dashboard">
-          <div class="project-content">
-            <h3>Call Centre Performance Dashboard</h3>
-            <p>Power BI dashboard tracking CSAT, agent efficiency, and response times.</p>
-            <a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI" target="_blank" class="btn-link">View Project</a>
-          </div>
-        </div>
+    <div class="project">
+      <img src="pwc_call_centre.png" alt="PwC Dashboard">
+      <h3>PwC Call Centre Analytics</h3>
+      <p>Power BI dashboard analyzing CSAT, agent productivity, and service demand trends.</p>
+      <p><strong>Tools:</strong> Power BI, Power Query, Excel</p>
+      <p><strong>Impact:</strong> Improved performance visibility and reduced service bottlenecks.</p>
+      <a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI">View Project</a>
+    </div>
 
-        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
-          <img src="ab_testing_analysis.png" alt="A/B Testing & Conversion Analysis">
-          <div class="project-content">
-            <h3>A/B Testing & Conversion Analysis</h3>
-            <p>End-to-end experimentation with Python and statistical validation.</p>
-            <a href="https://github.com/olufemiolamoyegun/Growth-Analytics-A-B-Testing" target="_blank" class="btn-link">View Project</a>
-          </div>
-        </div>
+    <div class="project">
+      <img src="hr_analytics_workforce.png" alt="HR Dashboard">
+      <h3>HR Analytics & Workforce Intelligence</h3>
+      <p>Enterprise HR analytics solution measuring attrition, engagement, and compensation.</p>
+      <p><strong>Tools:</strong> SQL, Power BI, Data Modeling</p>
+      <p><strong>Impact:</strong> Identified high-risk attrition segments for targeted intervention.</p>
+      <a href="https://github.com/olufemiolamoyegun/-HR-Analytics-Workforce-Intelligence">View Project</a>
+    </div>
 
-        <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
-          <img src="spotify_heatmap.png" alt="Streaming Data Insights">
-          <div class="project-content">
-            <h3>Streaming Data Insights</h3>
-            <p>Exploratory analysis of engagement and content popularity.</p>
-            <a href="https://github.com/olufemiolamoyegun/-Spotify-Streaming-Analytics-Python-" target="_blank" class="btn-link">View Project</a>
-          </div>
-        </div>
+    <div class="project">
+      <img src="ab_testing_analysis.png" alt="A/B Testing">
+      <h3>A/B Testing & Growth Analytics</h3>
+      <p>Python-based statistical testing to evaluate product variant performance.</p>
+      <p><strong>Tools:</strong> Python, Pandas, NumPy, Statsmodels</p>
+      <p><strong>Impact:</strong> Data-backed rollout decisions with measurable revenue lift.</p>
+      <a href="https://github.com/olufemiolamoyegun/Growth-Analytics-A-B-Testing">View Project</a>
+    </div>
 
-        <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
-          <img src="hr_analytics_workforce.png" alt="Workforce Analytics Dashboard">
-          <div class="project-content">
-            <h3>Workforce Analytics Dashboard</h3>
-            <p>SQL & Power BI solution analyzing attrition and engagement trends.</p>
-            <a href="https://github.com/olufemiolamoyegun/-HR-Analytics-Workforce-Intelligence" target="_blank" class="btn-link">View Project</a>
-          </div>
-        </div>
-      </div>
+    <div class="project">
+      <img src="spotify_heatmap.png" alt="Spotify Analytics">
+      <h3>Spotify Streaming Analytics</h3>
+      <p>Exploratory analysis uncovering drivers of engagement and track popularity.</p>
+      <p><strong>Tools:</strong> Python, Matplotlib, Seaborn</p>
+      <p><strong>Impact:</strong> Identified energy/danceability as key stream drivers.</p>
+      <a href="https://github.com/olufemiolamoyegun/-Spotify-Streaming-Analytics-Python-">View Project</a>
+    </div>
+
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div>
+      <span class="skill">Power BI</span>
+      <span class="skill">Microsoft Fabric</span>
+      <span class="skill">SQL</span>
+      <span class="skill">Python</span>
+      <span class="skill">Excel</span>
+      <span class="skill">ETL Pipelines</span>
+      <span class="skill">Data Modeling</span>
+      <span class="skill">Dashboard Design</span>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section alt">
-    <div class="container">
-      <h2 class="section-title">Contact Me</h2>
-      <p>I’m open to collaborations and data-driven problem solving.</p>
-
-      <div class="contact-grid">
-        <div><i class="fas fa-envelope"></i> olamoyegun07@gmail.com</div>
-        <div><i class="fas fa-location-dot"></i> Lagos, Nigeria</div>
-      </div>
-
-      <div class="social-links">
-        <a href="https://github.com/olufemiolamoyegun" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/olufemiolamoyegun" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://x.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
-        <a href="https://medium.com" target="_blank"><i class="fab fa-medium"></i></a>
-        <a href="https://community.fabric.microsoft.com" target="_blank"><i class="fab fa-microsoft"></i></a>
-      </div>
-    </div>
+  <section id="contact">
+    <h2>Connect With Me</h2>
+    <a href="mailto:olamoyegun07@gmail.com">Email Me</a>
+    <a href="https://www.linkedin.com/in/olufemi-olamoyegun">LinkedIn</a>
+    <a href="https://olufemiolamoyegun.github.io/">Portfolio</a>
+    <a href="https://github.com/olufemiolamoyegun">GitHub</a>
   </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <p>© 2026 Olufemi Olamoyegun. All rights reserved.</p>
-  </footer>
-
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
-  <script>
-    AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
-  </script>
 
 </body>
 </html>
