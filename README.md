@@ -52,7 +52,7 @@ I actively share knowledge through **GitHub projects, tutorials, and dashboards*
 - Dashboards support leadership decisions  
 
 **Preview:**  
-![HR Analytics Dashboard](HR_ANALYTICS_AND_WORKFORCE_INTELLIGENCE.png)  
+![HR Analytics Dashboard](HR%20ANALYTICS%20AND%20WORKFORCE%20INTELLIGENCE.png)  
 
 [View Project](#)
 
@@ -69,7 +69,7 @@ I actively share knowledge through **GitHub projects, tutorials, and dashboards*
 - Insights inform product strategy  
 
 **Preview:**  
-![A/B Testing Analysis](A_B_TESTING_ANALYSIS.png)  
+![A/B Testing Analysis](ab_testing_analysis.png)  
 
 [View Project](#)
 
