@@ -1,79 +1,131 @@
-# Hi, I’m Olufemi Olamoyegun 👋
+# Olufemi Olamoyegun – Data Analyst | Power BI | Python | SQL | Microsoft Fabric  
 
-**Data Analyst | Power BI & Microsoft Fabric | Python & SQL | Excel Automation | Product, Growth & Workforce Analytics**
+![Data Analytics Banner](https://via.placeholder.com/1200x300?text=Turning+Data+Into+Actionable+Insights)
 
-Data Analyst specializing in Power BI, SQL, and Python — transforming raw data into insights that drive business performance.
+👋 Hi! I’m Olufemi – a **Data Analyst passionate about transforming complex data into actionable insights**. I design dashboards, perform SQL and Python analysis, and deliver storytelling insights that drive decisions.  
 
-I am a Data Analyst and Analytics Educator with strong experience in Power BI, SQL, Python, Excel, and Microsoft Fabric.
-
-I specialize in transforming complex datasets into clear, business-ready insights through dashboards, KPI frameworks, and data storytelling.
-
-I actively contribute to the Microsoft Fabric Community and Microsoft Tech Community, where I help professionals solve real-world analytics problems and improve their reporting skills.
+📫 Reach me: olamoyegun07@gmail.com | [LinkedIn](https://www.linkedin.com/in/olufemiolamoyegun) | [GitHub](https://olufemiolamoyegun.github.io/)  
 
 ---
 
-## 🔭 What I Do
-- Build **interactive dashboards** using **Power BI** and **Microsoft Fabric**
-- Perform **data analysis & experimentation** with **Python and SQL**
-- Design **KPIs and metrics** for executives and operational teams
-- Automate reporting workflows and analytics pipelines
-- Create learning content and mentor aspiring data analysts
+## About Me
+I help organizations make smarter, data-driven decisions by turning raw data into actionable insights. My focus is on **Power BI, Microsoft Fabric, SQL, Python, and Excel**.  
+
+I actively share knowledge through **GitHub projects, tutorials, and dashboards** to mentor aspiring analysts and help businesses optimize processes.  
+
+**Core Competencies:**  
+- Data Analytics & Business Intelligence  
+- Dashboard Design & KPI Tracking  
+- SQL & Python Data Analysis  
+- Reporting Automation & ETL Pipelines  
+- Data Storytelling & Insight Communication  
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 📞 PwC Call Centre Analytics (Power BI)
-Operational performance analysis covering CSAT, ASA, AHT, and agent productivity  
-🔗 https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI
+### 1️⃣ PwC Call Centre Analytics Dashboard
+**Overview:** Improved call centre efficiency with a **Power BI dashboard** visualizing customer satisfaction, agent productivity, and service demand trends.  
 
-### 📈 Growth Analytics & A/B Testing (Python)
-End-to-end A/B testing with statistical validation and business recommendations  
-🔗 https://github.com/olufemiolamoyegun/Growth-Analytics-A-B-Testing
+**Skills & Tools:** Power BI, Power Query, Excel, Dashboard Design, Data Cleaning  
 
-### 🎵 Spotify Streaming Analytics (Python)
-Exploratory data analysis of music engagement and popularity drivers  
-🔗 https://github.com/olufemiolamoyegun/-Spotify-Streaming-Analytics-Python-
+**Key Insights:**  
+- Targeted coaching improved agent performance  
+- Peak call monitoring reduced abandoned calls  
+- Process optimization enhanced CSAT  
 
-### 👔 HR Analytics & Workforce Intelligence (SQL + Power BI)
-Enterprise-style workforce analytics focused on attrition, engagement, and compensation  
-🔗 https://github.com/olufemiolamoyegun/-HR-Analytics-Workforce-Intelligence
+**Preview:**  
+![PwC Call Centre Dashboard](pwc_call_centre.png)  
 
----
-
-## 📊 Skills & Tools
-Analytics & BI
-• Power BI • Excel Analytics • KPI Design • Data Storytelling
-
-Data & Engineering
-• SQL • Python • ETL • Data Modeling • Microsoft Fabric
-
-Business Skills
-• Operational Analytics • Performance Measurement • Stakeholder Reporting
-
+[View Project](#)
 
 ---
 
-📊 **Skills & Tools**
+### 2️⃣ HR Analytics & Workforce Intelligence
+**Overview:** Enterprise-level HR analytics project measuring attrition, engagement, and performance using **SQL & Power BI**.  
 
-- **Data Analysis & BI:** Power BI, Tableau, Excel Advanced, Power Query, DAX  
-- **Data Engineering & ETL:** SQL, Python, Microsoft Fabric  
-- **Reporting & Forecasting:** KPI dashboards, predictive models, trend analysis  
-- **Data Governance & Quality:** Cleaning, validation, transformation  
-- **Community & Mentorship:** GitHub tutorials, Medium articles, YouTube walkthroughs
+**Skills & Tools:** SQL, Power BI, Power Query, KPI Dashboards, Data Modeling  
 
-🏆 **Community Contributions**
+**Key Insights:**  
+- Engagement predicts attrition  
+- Low-engagement segments require targeted interventions  
+- Dashboards support leadership decisions  
 
-- Microsoft Fabric Community: [View Profile](https://community.fabric.microsoft.com/t5/user/viewprofilepage/user-id/843006)  
-- Microsoft Tech Community: [View Profile](https://techcommunity.microsoft.com/users/olufemio/1895696)  
-- Published analytics tutorials, dashboards, and project walkthroughs  
-- Shared templates, dashboards, and learning resources for aspiring analysts  
+**Preview:**  
+![HR Analytics Dashboard](HR_ANALYTICS_AND_WORKFORCE_INTELLIGENCE.png)  
 
-📫 **Connect With Me**
+[View Project](#)
 
-- GitHub: [@olufemiolamoyegun](https://github.com/olufemiolamoyegun)  
-- LinkedIn: [Olufemi Olamoyegun](https://www.linkedin.com/in/olufemiolamoyegun)  
-- Medium: [Olufemi Writes](https://medium.com/@olufemiolamoyegun)  
-- YouTube: [Olufemi Builds](https://youtube.com/@olufemibuilds)  
+---
 
-✨ Let’s turn data into smarter business decisions together!
+### 3️⃣ A/B Testing & Growth Analytics
+**Overview:** Conducted **Python-based A/B testing** to evaluate product variant performance and revenue impact.  
+
+**Skills & Tools:** Python, Pandas, NumPy, Statsmodels, Data Visualization  
+
+**Key Insights:**  
+- Variant improved conversion and revenue  
+- Statistical significance supports rollout decisions  
+- Insights inform product strategy  
+
+**Preview:**  
+![A/B Testing Analysis](A_B_TESTING_ANALYSIS.png)  
+
+[View Project](#)
+
+---
+
+### 4️⃣ Spotify Streaming Analytics
+**Overview:** Analyzed synthetic streaming data to uncover **track popularity drivers, engagement patterns, and playlist optimization insights**.  
+
+**Skills & Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, EDA  
+
+**Key Insights:**  
+- High energy/danceability tracks drove streams  
+- Very long tracks reduced engagement  
+- Supports data-driven playlist strategies  
+
+**Preview:**  
+![Spotify Heatmap](spotify_heatmap.png)  
+
+[View Project](#)
+
+---
+
+## Technical Skills & Tools
+
+![Power BI](https://img.shields.io/badge/Power%20BI-563D7C?style=for-the-badge&logo=powerbi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-0078D7?style=for-the-badge&logo=microsoft&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
+- **BI & Analytics:** Power BI, Microsoft Fabric, DAX, Power Query, Dashboard Design  
+- **Data Analysis:** SQL, Python (Pandas, NumPy, Statsmodels), Excel, EDA  
+- **Data Management:** ETL Pipelines, Data Cleaning, Data Validation, KPI Modeling  
+- **Visualization & Storytelling:** Dashboards, Python Visuals, Reporting Automation  
+
+---
+
+## Certifications
+
+![Power BI](https://img.shields.io/badge/Power%20BI%20Data%20Analyst-Microsoft-blue)
+![Fabric Analytics Engineer](https://img.shields.io/badge/Fabric%20Analytics%20Engineer-Microsoft-blue)
+![BIDA](https://img.shields.io/badge/BIDA™-CFI-orange)
+![Power BI Datacamp](https://img.shields.io/badge/Power%20BI-DataCamp-red)
+
+- Microsoft Certified: Power BI Data Analyst Associate  
+- Microsoft Certified: Fabric Analytics Engineer Associate  
+- Business Intelligence & Data Analyst (BIDA™) – CFI  
+- Data Analyst in Power BI – Datacamp  
+
+---
+
+## Get in Touch
+I’m open to **data analyst, BI, and analytics roles**, collaborations, and mentoring.  
+
+📧 Email: olamoyegun07@gmail.com  
+🔗 LinkedIn: [https://www.linkedin.com/in/olufemiolamoyegun](https://www.linkedin.com/in/olufemiolamoyegun)  
+💻 GitHub: [https://olufemiolamoyegun.github.io/](https://olufemiolamoyegun.github.io/)  
+
+---
