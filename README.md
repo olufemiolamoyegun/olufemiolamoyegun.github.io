@@ -52,7 +52,7 @@ I actively share knowledge through **GitHub projects, tutorials, and dashboards*
 - Dashboards support leadership decisions  
 
 **Preview:**  
-![HR Analytics Dashboard](HR%20ANALYTICS%20AND%20WORKFORCE%20INTELLIGENCE.png)  
+![HR Analytics Dashboard](hr_analytics_workforce.png)  
 
 [View Project](#)
 
