@@ -4,7 +4,7 @@
 
 👋 Hi! I’m Olufemi – a **Data Analyst passionate about transforming complex data into actionable insights**. I design dashboards, perform SQL and Python analysis, and deliver storytelling insights that drive decisions.  
 
-📫 Reach me: olamoyegun07@gmail.com | [LinkedIn](https://www.linkedin.com/in/olufemiolamoyegun) | [GitHub](https://olufemiolamoyegun.github.io/)  
+📫 Reach me: olamoyegun07@gmail.com | [LinkedIn](https://www.linkedin.com/in/olufemi-olamoyegun) | [GitHub](https://olufemiolamoyegun.github.io/)  
 
 ---
 
@@ -125,7 +125,7 @@ I actively share knowledge through **GitHub projects, tutorials, and dashboards*
 I’m open to **data analyst, BI, and analytics roles**, collaborations, and mentoring.  
 
 📧 Email: olamoyegun07@gmail.com  
-🔗 LinkedIn: [https://www.linkedin.com/in/olufemiolamoyegun](https://www.linkedin.com/in/olufemiolamoyegun)  
+🔗 LinkedIn: [https://www.linkedin.com/in/olufemiolamoyegun](https://www.linkedin.com/in/olufemi-olamoyegun)  
 💻 GitHub: [https://olufemiolamoyegun.github.io/](https://olufemiolamoyegun.github.io/)  
 
 ---
