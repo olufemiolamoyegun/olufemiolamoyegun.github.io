@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="Data Analytics Banner" />
+  <img src="Banner.png" alt="Data Analytics Banner" />
 </p>
 
 <h1 align="center">Olufemi Olamoyegun</h1>
