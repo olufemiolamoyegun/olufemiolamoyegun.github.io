@@ -3,7 +3,8 @@
 </p>
 
 <h1 align="center">Olufemi Olamoyegun</h1>
-<h3 align="center">Data Analyst | Power BI & Microsoft Fabric | Python & SQL</h3>
+<h3 align="center">Olufemi Olamoyegun
+Data Analyst | Finance & Operational Analytics | Power BI • Fabric • Python • SQL</h3>
 
 <p align="center">
   Turning complex data into actionable business insights.
@@ -20,16 +21,16 @@
 
 ## 🚀 About Me
 
-I am a Data Analyst passionate about turning **raw data into strategic insights** through dashboards, SQL analysis, and Python-driven analytics.  
+Data Analyst with 3+ years of analytics experience and 11 years in finance and operations. Skilled
+in transforming complex data into actionable insights using Power BI, SQL, Python, and Microsoft
+Fabric. Focused on improving decision-making, efficiency, and business performance.  
 
-I specialize in:
+Core Skills
 
-- 📊 Business Intelligence & Dashboard Development  
-- 🧠 KPI Design & Performance Tracking  
-- 🗄 SQL & Data Modeling  
-- 🐍 Python Analytics (Pandas, NumPy, Statsmodels)  
-- 🔄 Reporting Automation & ETL Pipelines  
-- 📈 Data Storytelling for Decision Support  
+Data & Engineering SQL, Python, ETL, Data Modeling
+BI & Visualization Power BI, Fabric, Dashboards, DAX
+Analytics A/B Testing, Forecasting, Statistics
+Tools Excel, Power Automate
 
 ---
 
@@ -87,6 +88,12 @@ SQL • Python • Pandas • NumPy • Statsmodels • Excel
 ETL Pipelines • Data Cleaning • Data Validation • KPI Modeling  
 
 ---
+
+
+## Experience
+BI & Analytics Lead – Cadworks Ltd (2024–Present)
+Director, Business Analytics – Cadworks Ltd (2023–2024)
+Finance & Operational Analytics Specialist (2012–2023)
 
 ## 📜 Certifications
 
