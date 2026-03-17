@@ -91,9 +91,9 @@ ETL Pipelines • Data Cleaning • Data Validation • KPI Modeling
 
 
 ## Experience
-BI & Analytics Lead – Cadworks Ltd (2024–Present)
-Director, Business Analytics – Cadworks Ltd (2023–2024)
-Finance & Operational Analytics Specialist (2012–2023)
+- BI & Analytics Lead – Cadworks Ltd (2024–Present)
+- Director, Business Analytics – Cadworks Ltd (2023–2024)
+- Finance & Operational Analytics Specialist (2012–2023)
 
 ## 📜 Certifications
 
