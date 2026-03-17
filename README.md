@@ -3,7 +3,6 @@
 </p>
 
 <h1 align="center">Olufemi Olamoyegun</h1>
-<h3 align="center">Olufemi Olamoyegun
 Data Analyst | Finance & Operational Analytics | Power BI • Fabric • Python • SQL</h3>
 
 <p align="center">
