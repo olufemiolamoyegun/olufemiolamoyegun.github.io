@@ -20,9 +20,7 @@ Data Analyst | Finance & Operational Analytics | Power BI • Fabric • Python 
 
 ## 🚀 About Me
 
-Data Analyst with 3+ years of analytics experience and 11 years in finance and operations. Skilled
-in transforming complex data into actionable insights using Power BI, SQL, Python, and Microsoft
-Fabric. Focused on improving decision-making, efficiency, and business performance.  
+Data Analyst with 3+ years of analytics experience and 11 years in finance and operations. Skilled in transforming complex data into actionable insights using Power BI, SQL, Python, and Microsoft Fabric. Focused on improving decision-making, efficiency, and business performance.  
 
 Core Skills
 
